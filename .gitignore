@@ -161,4 +161,5 @@ cython_debug/
 
 api.py
 api_load.ipynb
-LangChain/The_Adventures_of_Tom_Sawyer.pdf
+*.pdf
+*.txt
