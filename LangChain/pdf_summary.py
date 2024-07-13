@@ -42,7 +42,7 @@ def main():
         for page in pdf_reader.pages:
             text += page.extract_text()
         documents = process_text(text)
-        query = "업로드 된 PDF 파일의 내용을 3~5 문장으로 요약해주세요."
+        query = "업로드 된 PDF 파일의 내용에서 알고리즘을 5 문장으로 요약해주세요."
         
         if query:
             docs = documents.similarity_search(query)
